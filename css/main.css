@@ -1,0 +1,289 @@
+/*Спецификация*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    display: block;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    color: #323232;
+    line-height: 1.2em;
+}
+
+p {
+    margin: 0;
+    line-height: 1.4em;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.container_flex{
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.btn {
+    padding: 13px 0px;
+    background: #6BAFFF;
+    font-size: 15px;
+    border-radius:30px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    color: #000;
+}
+
+.btn:hover {
+    background: #2484F5;
+    transition:background 0.5s ease;
+}
+
+.section-title{
+    font-size: 36px;
+    padding-bottom: 58px;
+    text-align: center;
+}
+
+/*Первая секция*/ 
+
+.nav {
+    border-bottom: 1px solid #000;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.logo {
+    background: url('../img/logo.svg') no-repeat;
+    width: 101px;
+    height: 88px;
+    display: block;
+}
+
+.menu__list{
+    display: flex;
+}
+
+.menu__item a {
+    color: #000;
+    padding: 40px 28px;
+    display: block;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    transition: border-bottom.5s ease;
+}
+
+.menu__item-tel{
+    font-weight: 700;
+    padding: 31px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__item-tel a{
+    color: #000;
+    transition: color 0.5s ease;
+}
+
+.menu__item-tel a:hover{
+    color: blue;
+    transition: color 0.5s ease;
+}
+
+.menu__item a:hover
+{
+    border-bottom: 2px solid #000;
+    transition: border-bottom.5s ease;
+}
+
+/* Вторая секция */
+
+.offer-wrapper {
+    padding: 116px 0 88px;
+}
+
+.var {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text__pr {
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+.ob {
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.ob img {
+    width: auto;
+}
+
+.ob:nth-child(6) {
+    margin-right: 587px;
+}
+
+.text__img {
+    color: black;
+    position: absolute;
+    font-weight: 700;
+    right: 0;
+    bottom: 90px;
+    font-size: 18px;
+    padding: 9px 55px;
+    text-align: center;
+}
+}
+
+.text__img-t{
+    padding: 3px 7px;
+    color: black;
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    bottom: 100px;
+    right: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.variants__img{
+    width: 210px;
+    border: 2px solid transparent;
+    transition:border 0.5s ease;
+}
+
+.variants__img:hover{
+    transition:border 0.5s ease;
+    border: 2px solid #53A0E7;
+}
+
+/* Подвал */
+
+.footer {
+    background: #F6F6F8;
+    padding: 70px 0 0 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrap {
+      max-width: 350px;
+      margin-top: 13px;
+  }
+
+  .footer-content__info{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-content__list-items {
+    margin-right: 40px;
+    margin-bottom: 10px;
+  }
+
+  .footer-content__list-items a{
+    color: #000;
+    display: flex;
+    transition: color 0.5s ease;
+}
+
+.footer-content__list-items a:hover{
+    transition: color 0.5s ease;
+    color: #2484F5;
+}
+
+.cards {
+    background: url('../img/cards.png') no-repeat;
+    width: 320px;
+    height: 40px;
+    display: block;
+    margin-top: 25px;
+}
+
+  .footer-content__list-s {
+      display: flex;
+      margin-top: 20px;
+      align-items: center;
+  }
+
+.footer-content__list-item_social {
+    margin-right: 22px;
+}
+
+.footer-content__icon {
+    margin-right: 17px;
+}
+
+.footer-content__list {
+    margin-top: 25px;
+}
+
+  .footer-content__list-item {
+    margin-bottom: 21px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-content__list-item a{
+    color: #000;
+    display: flex;
+    transition: color 0.5s ease;
+}
+
+.footer-content__list-item a:hover{
+    transition: color 0.5s ease;
+    color: #2484F5;
+}
+
+.footer-credits {
+    margin-top: 61px;
+    padding: 30px 0;
+    border-top: 1px solid #E0E0E0;
+  }
+  .footer-credits__text {
+    font-size: 13px;
+    text-align: center;
+  }
+
+
